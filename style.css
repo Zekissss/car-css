@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  height: 790px;
+  width: 1550px;
+  position: relative;
+  background-image: url(https://media.istockphoto.com/id/1249841829/tr/vekt%C3%B6r/diki%C5%9Fsiz-%C5%9Fehir-manzara-vekt%C3%B6r-ill%C3%BCstrasyon-d%C3%BCz-tasar%C4%B1m-yaz-%C5%9Fehir-manzara-g%C3%B6kdelenler-otob%C3%BCs.jpg?s=1024x1024&w=is&k=20&c=hQ-SvGyJmxsMRbd_A_cbcdAN_Iow-DTQwdbPjmtfoYo=);
+  animation: bbg 10s linear infinite;
+}
+@keyframes bbg {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 3600px 0;
+  }
+}
+img {
+  position: absolute;
+  right: 50px;
+  bottom: 20px;
+  animation: car 1s linear infinite;
+  z-index: 10;
+}
+@keyframes car {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
